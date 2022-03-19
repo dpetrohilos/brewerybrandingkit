@@ -1,0 +1,24 @@
+/*
+Theme Name: Brewery Branding Kit   
+Theme URI: https://github.com/dpetrohilos/brewerybrandingkit   
+Author: Patrick St John 
+Author URI: repeater.digital
+Description: Brewery Branding Kit Theme Based On HTML5 blank, FlexBox Grid    
+*/
+
+
+// Modules
+@import "modules/variables";
+@import "modules/mixins";
+@import "modules/fonts";
+
+// Partials
+@import "partials/reset";
+@import "partials/wordpress";
+@import "partials/utils";
+@import "partials/wrapper";
+@import "partials/header";
+@import "partials/nav";
+@import "partials/sidebar";
+@import "partials/footer";
+@import "partials/print";
