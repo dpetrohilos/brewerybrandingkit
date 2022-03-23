@@ -5,9 +5,37 @@
 /**
  * Typography
  */
+
+
+
+
 /**
  * Colors
  */
+
+$red: #EF3A01;
+$orange: #FB9D29;
+$secondary-orange: #F7790E;
+$third-orange: #FFE4B1; 
+$black: #0B0B0B; 
+
+
 /**
  * Grid
  */
+
+
+
+.grid-item {
+    display: grid;
+    grid-template-rows: 3.2rem;
+    grid-template-columns: repeat(24, 1fr);
+    max-width: 100vw;
+    width: 100%;
+    margin: 0 auto;
+    padding: 2.4rem 1.6rem 0rem 1.6rem;
+    grid-column-gap: 1.6rem;
+    grid-row-gap: 1.6rem;
+    
+    
+}
